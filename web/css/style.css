@@ -1,0 +1,400 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+@font-face {
+    font-family:babydoll;
+    src:url(../fonts/babydoll.ttf)
+}
+
+.babydollfont {
+	font-family: babydoll;
+}
+
+.navstyle {
+	font-size: 20px;
+}
+
+
+#wrapper {
+	max-width: 960px;
+	font-family: ming;
+	margin: auto;
+}
+
+.headerstyle {
+background-color: #f2f369;
+height: 120px;
+padding-top: 25px;
+}
+
+#logostyle {
+	margin-left: 25%;
+}
+
+#navigationstyle {
+	height: 40px;
+
+}
+
+.navbutton {
+	display: inline-block;
+	text-align: center;
+	color: white;
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: ming;
+}
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 3px 0px #a3a3a3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #a3a3a3;
+	box-shadow:inset 0px 1px 3px 0px #a3a3a3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e8ebea), color-stop(1, #9e9e9e));
+	background:-moz-linear-gradient(top, #e8ebea 5%, #9e9e9e 100%);
+	background:-webkit-linear-gradient(top, #e8ebea 5%, #9e9e9e 100%);
+	background:-o-linear-gradient(top, #e8ebea 5%, #9e9e9e 100%);
+	background:-ms-linear-gradient(top, #e8ebea 5%, #9e9e9e 100%);
+	background:linear-gradient(to bottom, #e8ebea 5%, #9e9e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8ebea', endColorstr='#9e9e9e',GradientType=0);
+	background-color:#e8ebea;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #76807d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:ming;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #a0a3a3;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9e9e9e), color-stop(1, #e8ebea));
+	background:-moz-linear-gradient(top, #9e9e9e 5%, #e8ebea 100%);
+	background:-webkit-linear-gradient(top, #9e9e9e 5%, #e8ebea 100%);
+	background:-o-linear-gradient(top, #9e9e9e 5%, #e8ebea 100%);
+	background:-ms-linear-gradient(top, #9e9e9e 5%, #e8ebea 100%);
+	background:linear-gradient(to bottom, #9e9e9e 5%, #e8ebea 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#e8ebea',GradientType=0);
+	background-color:#9e9e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:ming;
+	font-size:35px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton2:hover {
+	background-color:#eb675e;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.shopnow {
+ 	text-align: center;
+ 	margin-top: 40px;
+}
+
+.message {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+
+.diaperinfo {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom; 5px;
+	font-family: babydoll;
+	font-size: 20px;
+}
+
+.beforefooter {
+	margin-top: 60px;
+	height: 5px;
+	background-color: #f2f369;
+}
+
+.footerstyle {
+	background-color: #ace3ff;
+	height: 60px;
+	text-align: center;
+	padding: 20px;
+}
+
+.servicesdesc {
+	margin-top: 20px;
+}
+
+.diapersinfo {
+	padding: 10px;
+	border: 2px solid lightblue;
+}
+
+.diaperinfoheader {
+	color: lightblue;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: ming;
+}
+
+.diaperdescbox {
+	font-family: ming;
+	font-size: 15px;
+	text-align: center;
+}
+
+.mingfont {
+	font-family: ming;
+}
+
+#contact {
+	margin-top: 100px;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+
+}
+.socialimg {
+	height: 50px;
+	width: 50px;
+}
+
+#shopnowbutton {
+	background-color: red;
+	display: inline-block;
+}
+
+.content {
+	
+	width:960px;
+	margin:0 auto;
+	background-color: white;
+	background-repeat:repeat-y;}
+
+
+.footer {
+font-size:35px;
+text-align:right;
+font-family: ;
+float:left;
+Width:960px;
+height:40px;
+background-color:#52a8d5;
+
+
+margin-right:10px;}
+
+
+
+
+.div1 {
+	background-color:#aae2ff;
+height:40px;
+margin-bottom:20px;
+border-radius:15px;
+display: block;
+	text-align: center;
+
+
+
+}
+.div1 ul li {
+	float: left;
+	list-style-type: none;
+	
+}
+.div1 ul li a {
+	color: #000;
+	text-decoration: none;
+	display: inline;
+	padding:80px;
+	height: 36px;
+	width: 300px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 26px;
+	}
+
+
+.div1 ul li a:hover, a:active{color:#026662}
+
+h1{font-size:34px;
+font-family:"Finger Paint";
+margin-bottom:15px;
+margin-top:10px;}
+
+.about{
+   
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+
+.aboutstyle {
+	color: #aae2ff;
+}
+
+.learnmorestyle {
+	color: #aae2ff;
+}
+.margin-auto {
+    margin: 0 auto;
+    width: 960px;
+}
+.about_text {
+    float: left;
+    margin: auto;
+    
+    padding-top: 10px;
+    width: 600px;
+}
+.img {
+    float: left;
+    width: 230px;
+}
+.text {
+    font-size: 20px;
+    padding: 30px;
+}
+.learn_text {
+   
+    float: left;
+   
+    width: 100%;
+}
+
+.learn_image {
+    float: left;
+    width: 230px;
+    margin-right: 20px;
+}
+#learn{width:100%;
+margin-left:640px;
+margin-top:80px;
+}
+#textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #F8FDFD;
+    font-size: 16px;
+    resize: none;
+
+
+
+}
+.textarea2
+{
+    width: 20%;
+    height: 15px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #F8FDFD;
+    font-size: 16px;
+    resize: none;
+
+
+}
+#image2 {
+float: right;
+display:inline;
+   
+    }
+
+
+h2 
+{
+font-size: 22px;
+}
+#map
+{
+
+    width: 100%;
+    height: 250px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+    
+}
+#image2
+{
+
+    margin-top:200px;
+    margin-bottom:10px;
+    
+
+    
+}
+p
+{
+
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 22px;
+    margin-left:10px;
+     
+}
+
+
+
+

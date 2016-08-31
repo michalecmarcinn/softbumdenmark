@@ -1,0 +1,275 @@
+/*====================*/
+/*=== Reset Styles ===*/
+/*====================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+table {
+	border-collapse:separate;
+	border-spacing:0;
+}
+caption, th, td {
+	text-align:left;
+	font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:"";
+}
+blockquote, q {
+	quotes:"" "";
+}
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+
+
+a, a:visited {
+	color:blue;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#000;
+	text-decoration:none;
+}
+
+#logo {width:300px;
+	height:290px;
+	display:block;
+	margin-left:330px;
+	z-index:20px;
+
+}
+
+.slider-wrapper { 
+	width: 940px;
+	margin: 0 auto;
+	height:500px;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+
+@font-face {
+    font-family:babydoll;
+    src:url(../fonts/babydoll.ttf)
+}
+
+body {
+
+background-repeat:repeat;
+background-attachment: fixed;
+	width:960px;
+margin:0 auto;
+
+	
+}
+
+
+
+.content {
+	
+	width:960px;
+	margin:0 auto;
+	background-color: white;
+	background-repeat:repeat-y;}
+
+
+.footer {
+font-size:35px;
+text-align:right;
+font-family: babydoll;
+float:left;
+Width:960px;
+height:40px;
+background-color:#52a8d5;
+
+
+margin-right:10px;}
+
+
+
+
+.div1 {
+	background-color:#aae2ff;
+height:40px;
+margin-bottom:20px;
+border-radius:15px;
+display: block;
+	text-align: center;
+
+
+}
+.div1 ul li {
+	float: left;
+	list-style-type: none;
+	
+}
+.div1 ul li a {
+	color: #000;
+	text-decoration: none;
+	display: inline;
+	padding:80px;
+	height: 36px;
+	width: 300px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 28px;
+	}
+
+
+.div1 ul li a:hover, a:active{color:#026662}
+
+h1{font-size:34px;
+font-family:"Finger Paint";
+margin-bottom:15px;
+margin-top:10px;}
+
+.about{
+   
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+.margin-auto {
+    margin: 0 auto;
+    width: 960px;
+}
+#abouttext {
+    float: left;
+    margin: auto;
+    
+    padding-top: 10px;
+    width: 600px;
+}
+.img {
+    float: left;
+    width: 230px;
+}
+.text {
+    font-size: 16px;
+}
+#learntext {
+   font-family: babydoll;
+    float: left;
+   
+    width: 100%;
+}
+
+.learn_image {
+    float: left;
+    width: 230px;
+    margin-right: 20px;
+}
+#learn{width:100%;
+margin-left:740px;
+margin-top:80px;
+}
+#textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #F8FDFD;
+    font-size: 16px;
+    resize: none;
+
+
+
+}
+.textarea2
+{
+    width: 20%;
+    height: 15px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #F8FDFD;
+    font-size: 16px;
+    resize: none;
+
+
+}
+#image2 {
+float: right;
+display:inline;
+   
+    }
+
+
+h2 
+{
+font-size: 22px;
+}
+#map
+{
+
+    width: 100%;
+    height: 250px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+    
+}
+#image2
+{
+
+    margin-top:200px;
+    margin-bottom:10px;
+    
+
+    
+}
+p
+{
+
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 22px;
+    margin-left:10px;
+     
+}
+
+.message {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+
+.servicesdesc {
+	margin-top: 20px;
+}
+
+.diapersinfo {
+	padding: 10px;
+	border: 2px solid lightblue;
+}
+
+.mainpageheader {
+	font-size: 30px;
+}
